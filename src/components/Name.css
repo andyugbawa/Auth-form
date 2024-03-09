@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+.form-content{
+    width: 350px;
+    height: 350px;
+    border: 1px solid red;
+}
+
+input[type="email"]{
+  padding: 10px 20px 10px 2px;
+  width:270px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+input[type="password"]{
+  padding: 10px 20px 10px 2px;
+  width:270px;
+  margin-top: 30px;
+  border-radius: 10px;
+  outline: none;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 30px 4px 30px;
+}
+
+#signIn{
+  margin-left: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#signUp{
+    border-radius: 10px; 
+    font-size: 18px;
+    font-weight: bolder;
+}
